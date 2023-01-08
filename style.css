@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+form {
+  margin-top: 1vh;
+  width: 50%;
+  display: flex;
+}
+
+input {
+  border: none;
+  background-color: none;
+  outline: none;
+  padding: 1rem 2rem;
+}
+
+.input--email {
+  border: 1px solid lightcoral;
+  font-size: 2rem;
+  flex-grow: 1;
+}
+
+.input--email::placeholder {
+  color: coral;
+}
+.input--submit {
+  cursor: pointer;
+  background-color: coral;
+  color: white;
+  font-size: 2rem;
+  flex-grow: 2;
+}
